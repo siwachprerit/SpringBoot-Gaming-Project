@@ -46,7 +46,7 @@ To run this project, you will need Java 17+ and a local MySQL database.
 3.  **Configure Credentials:** The `userservice` is configured with the following credentials. **⚠️ IMPORTANT:** You should change these in a real environment.
     * **URL:** `jdbc:mysql://localhost:3306/apcproj?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true`
     * **Username:** `root`
-    * **Password:** `7206`
+    * **Password:** `yourpasswordhere`
 
 ### 2. Build the Projects
 
