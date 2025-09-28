@@ -1,0 +1,43 @@
+# Maven
+/target/
+pom.xml.tag
+pom.xml.bak
+release.properties
+
+# Build output and caches
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+/bin/
+/build/
+
+# IDE Settings and Metadata
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+# NOTE: It is critical to ignore files that contain credentials.
+# Your userservice/src/main/resources/application.properties contains database
+# credentials, so it should be ignored or those details should be moved to
+# environment variables outside of the repository.
+# Ignoring it will require collaborators to set up their own local environment file.
+userservice/src/main/resources/application.properties
